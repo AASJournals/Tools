@@ -22,9 +22,9 @@
 # to assign multiple figure files to a single figure in the set, give them the 
 # same figure title, e.g., Ori32-5 above.
 #
-# the caption string below can be written to map attributes of each row in the 
-# csv file as string elements of the caption. Given the example above a caption
-# string of 
+# the caption is built using a Python3 formatting string to map elements of
+# each row of the csv file to caption variable attributes. Given the example 
+# above a caption string of
 #
 # caption: {1} is a Class {2} object and {3}
 #
@@ -32,6 +32,11 @@
 #
 # LkHa823 is a Class III object and displays forbidden lines, Halpha in emission.
 # Ori32-5 is a Class II object and is completely featureless.
+#
+# YAML/Python3 notes on caption strings:
+# - "{" double escape {{ to pass through LaTeX commands
+# - "\" pass through safely 
+# - YAML string paragraph formatting rules are in effect
 #
 fignum: 1
 settitle: Young Stellar Object Scrapbook
