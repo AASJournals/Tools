@@ -6,10 +6,7 @@ File | Explanation
 `figureset.py` | The main scrip run by `> python figureset.py translation.yaml`
 `translation.yaml` | Figure set configuration parameters 
 `translation.csv` | Example CSV input to translation.yaml  
-   |  
 `figset.tex` | AASTeX < 6 macros. Add these macros to the header of your main .tex file.
-           |  
 `test1set.tex` | Example Figure Set. Running `> python figureset.py translation.yaml` should produce a file `fig1set.tex` that is identical to `test1set.tex`  
-           |   
 `make_translation.sh` | Table parsing script  
 
