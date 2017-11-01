@@ -48,7 +48,7 @@ for i, row in enumerate(t):
 markup.append("\\figsetend")
 
 # write out
-with open('figure{0}set.tex'.format(y['fignum']), mode='w', encoding='utf-8') as ofile:
+with open('fig{0}set.tex'.format(y['fignum']), mode='w', encoding='utf-8') as ofile:
     ofile.write('\n'.join(markup))
     ofile.write('\n')
         
