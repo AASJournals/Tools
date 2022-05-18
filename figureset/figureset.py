@@ -6,7 +6,7 @@ import csv, yaml
 
 # import yaml config
 with open(sys.argv[1], "r") as stream:
-    y = yaml.load(stream)
+    y = yaml.load(stream, Loader=yaml.FullLoader)
 
 # open translation table
 t = []

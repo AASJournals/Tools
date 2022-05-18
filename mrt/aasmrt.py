@@ -58,6 +58,9 @@ def main():
     elif p == 'csv':
         sur, ext = os.path.splitext(v)
         data.write(sur+".csv", format="ascii.csv", overwrite=False)
+    elif p == 'tex':
+        sur, ext = os.path.splitext(v)
+        data.write(sur+".tex", format="ascii.aastex", overwrite=False)
     elif p == 'info':
         print(data.info)
     else:
