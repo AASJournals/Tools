@@ -2,7 +2,7 @@
 
 import os, sys
 
-from astroquery.ned import Ned
+from astroquery.ipac.ned import Ned
 from astroquery.simbad import Simbad
 
 def main():
