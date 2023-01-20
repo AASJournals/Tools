@@ -8,3 +8,5 @@ Author tools for AAS Journals.
 ``fits:`` tool(s) for inspecting and transforming FITS tables.
 
 ``names:`` tool(s) for looking up preferred object names in NED and Simbad.
+
+``tex:`` tools for working with latex files, data reviewing, bibtex, bibcodes.
